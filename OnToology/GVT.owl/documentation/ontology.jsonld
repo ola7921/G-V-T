@@ -1,0 +1,3867 @@
+[ {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/age"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/birthday"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/firstName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/gender"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Foaf:Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyClass:Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyClass:Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:Age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/age"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:Foaf:gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/gender"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Company"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q783794"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "5 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "friction, disagreement, or discord within a group or between different groups"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conflict"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q180684"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+    }, {
+      "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+    }, {
+      "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+    }, {
+      "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Direction"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q29017603"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "8 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "7 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Use of telecommunications and computers to communicate between team members"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/ICT"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q5268834"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "10 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "capability to communicate using signs, such as words or gestures, by learning, choosing or adapting a conventional language to the other locutors for an effective usage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Language"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q315"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "11 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "capability of producing the desired result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q1296024"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "15 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Synergy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "group linked in a common purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Team"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q327245"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "6 Years"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Account for communication between individuals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "account"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The team affected by the conflict"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "يتأثر"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The person belong to the team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ينتمي الى"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/BeLonG_To"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q4875453"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "conflict caused trouble to all   team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "مشكلة"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "All team communication by means of communication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "التواصل"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The team consists of many person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "يتألف من"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q55692548"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "country for each team member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Country"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Property:P17"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q96437530"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "any company employed some person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "توظيف"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "the person  has a cutural difference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "يمتلك"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Has"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Property:P912"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Alialasadi87@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "35"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "25/11/1987"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Ali"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Hoshiarhoshiar85@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq/Kurdistan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "12"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "42"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/5/1980"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Hoshiar"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Sufi.r.a.19692@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "30"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "19/6/1992"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Sufi"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Oliver.james@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "16"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "47"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "11/4/1975"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Oliver"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Lucashenry22@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "39"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "25/1/1983"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Lucas"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Noahwilliam77@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "20"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "45"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "5/8/1977"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Noah"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Cooperedward.c1988@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "12"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "34"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "20/9/1988"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Cooper"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Jacksongeorge-227@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "33"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "27/10/1989"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Jackson"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Emily.H.W89@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "28"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "13/7/1994"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Emily"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Adam.m.mohameed@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "26"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "2/12/1996"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Adam"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Rayanabdulla-91@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "31"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "28/8/1991"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Rayan"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "noorabdullah231997@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "25"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "2/3/1997"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "noor"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Danish.j.kareem@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "36"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "10/5/1986"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Danish"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Aishamohmeed.computer@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "15"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "42"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "13/2/1980"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Aisha"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Zara.yousif84@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Malaysia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "38"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "7/5/1984"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Zara"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Lukasaden2007@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "35"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "21/7/1987"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Lukas"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Aria.b.e@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "28"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "7/9/1994"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Aria"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Cali.sin-199@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "30"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "23/11/1992"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Cali"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Dylan.a.m/267@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "17"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "49"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "22/2/1973"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Dylan"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Qasim.jamal.qasim@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Jordan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "30"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "55"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/4/1967"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Qasim"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Hesham.m.salah@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Jordan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "29"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "13/1/1993"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Hesham"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Jamil.2002@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Jordan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "35"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "59"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "31/10/1963"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Jamil"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Ahmed.j.k@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "30"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "15/11/1992"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Ahmed"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Reem.j.mohammed@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Jordan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "27"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "8/7/1995"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Reem"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Mahaabdullah@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Jordan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "14"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "41"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "27/5/1981"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Maha"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "sajaa.m.radi85@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "37"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "15/6/1985"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Saja"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "rawa-rashed90@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "32"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "28/7/1990"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Rawa"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "baderalshapi-1979@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "14"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "43"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "7/8/1979"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Bader"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "banderabduljabbar70@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "25"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "52"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "10/9/1970"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Bander"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "abdullahabdullah631986@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "36"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "2/12/1986"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "abdullah"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "kadhim.harbi@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "32"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "12/7/1990"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "kadhim"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "maher.alzoor@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "29"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "25/7/1993"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Maher"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "abdulwahed.ahmed1977@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "17"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "45"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/4/1977"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Abdulwahed"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "marwanaldosary@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Saudi Arabia"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "23"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "50"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "31/10/1972"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Marwan"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "taha-dirawi@hotmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "33"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "17/5/1989"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Taha"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "j.m.ahmed@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "34"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/2/1988"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Jassim"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "waseem.m.mohammed@coie-nahrain.edu.iq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "36"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "11/11/1986"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "waseem"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "falah.comp87@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "35"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "4/9/1987"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Falah"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "kareem.hasan@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "35"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "29/6/1987"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "abdulkareem"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "hibaabdulhussein2012@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "32"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/7/1990"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Hiba"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "marwa119@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "15"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "42"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "3/8/1980"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Marwa"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "fadhil.ali.1969@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "21"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "53"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "27/1/1969"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Fafhil"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "qasimalkabi85@yahoo.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "37"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "1/6/1985"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Qasim"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "mustafa.ali.1986@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "36"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "13/12/1986"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "mustafa"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Khaledkhaled81@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "17"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "41"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "5/12/1981"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Khaled"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "zahraa.alshawi@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "26"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "25/11/1996"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Zahraa"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Ayman.A.amran@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "29"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "2/6/1993"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Ayman"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Nawrasalsaadi31@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "27"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "31/3/1995"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Nawras"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Elafhameed1990@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "32"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "27/12/1990"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Elaf"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account" : [ {
+    "@value" : "Azad.h.renas@gmail.com"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country" : [ {
+    "@value" : "Iraq/Kurdistan"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"
+  }, {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"
+  } ],
+  "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience" : [ {
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "37"
+  } ],
+  "http://xmlns.com/foaf/0.1/birthday" : [ {
+    "@value" : "2/3/1985"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Azad"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "direction selected the team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "المحدد"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The person works in the company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "يعمل في"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Work-in"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q3569922"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "years of experience for each team member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "yearOfExperience"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q215627"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/birthday",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/firstName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/BeLonG_To",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Direction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/ICT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Synergy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Team",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Work-in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Property:P17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Property:P912",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1296024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q180684",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q215627",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q29017603",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q315",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q327245",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q3569922",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q4875453",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q5268834",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q55692548",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q783794",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q96437530",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+} ]
