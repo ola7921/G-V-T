@@ -1,0 +1,2090 @@
+@prefix : <http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#> .
+
+<http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy
+:affectedBy rdf:type owl:ObjectProperty ;
+            owl:inverseOf :causedTroubleTo ;
+            rdfs:domain :Team ;
+            rdfs:range :Conflict ;
+            <http://purl.org/dc/elements/1.1/description> "The team affected by the conflict"@en ;
+            rdfs:comment "يتأثر" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo
+:belongTo rdf:type owl:ObjectProperty ;
+          owl:inverseOf :consistOf ;
+          rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:range :Team .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo
+:causedTroubleTo rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Conflict ;
+                 rdfs:range :Team ;
+                 <http://purl.org/dc/elements/1.1/description> "conflict caused trouble to all   team"@en ;
+                 rdfs:comment "مشكلة" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy
+:communicatedBy rdf:type owl:ObjectProperty ;
+                owl:inverseOf :communicationWayTo ;
+                rdfs:domain :Team ;
+                rdfs:range :ICT ;
+                <http://purl.org/dc/elements/1.1/description> "All team communication by means of communication"@en ;
+                rdfs:comment "التواصل" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo
+:communicationWayTo rdf:type owl:ObjectProperty ;
+                    rdfs:domain :ICT ;
+                    rdfs:range :Team .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf
+:consistOf rdf:type owl:ObjectProperty ;
+           rdfs:domain :Team ;
+           rdfs:range <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy
+:directedBy rdf:type owl:ObjectProperty ;
+            owl:inverseOf :selectedBy ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Team ;
+            rdfs:range :Direction .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed
+:employed rdf:type owl:ObjectProperty ;
+          owl:inverseOf :workIn ;
+          rdfs:domain :Company ;
+          rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
+          <http://purl.org/dc/elements/1.1/description> "any company employed some person"@en ;
+          rdfs:comment "توظيف" ;
+          rdfs:isDefinedBy "" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has
+:has rdf:type owl:ObjectProperty ;
+     rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+     rdfs:range :CulturalDifference .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough
+:releasedThrough rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :synergyWayTo ;
+                 rdfs:domain :Team ;
+                 rdfs:range :Synergy .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy
+:selectedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Direction ;
+            rdfs:range :Team ;
+            <http://purl.org/dc/elements/1.1/description> "direction selected the team"@en ;
+            rdfs:comment "المحدد" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo
+:synergyWayTo rdf:type owl:ObjectProperty ;
+              rdfs:domain :Synergy ;
+              rdfs:range :Team .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn
+:workIn rdf:type owl:ObjectProperty ;
+        rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:range :Company .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account
+:account rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+         rdfs:range rdfs:Literal ;
+         rdfs:comment "Account for communication between individuals"@en ;
+         rdfs:label "account"@en .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country
+:country rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+         rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience
+:yearOfExperience rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                  rdfs:range rdfs:Literal ;
+                  rdfs:comment "years of experience for each team member"@en ;
+                  rdfs:label "yearOfExperience"@en .
+
+
+###  http://xmlns.com/foaf/0.1/age
+<http://xmlns.com/foaf/0.1/age> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/birthday
+<http://xmlns.com/foaf/0.1/birthday> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/firstName
+<http://xmlns.com/foaf/0.1/firstName> rdf:type owl:FunctionalProperty .
+
+
+###  http://xmlns.com/foaf/0.1/gender
+<http://xmlns.com/foaf/0.1/gender> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company
+:Company rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict
+:Conflict rdf:type owl:Class ;
+          rdfs:subClassOf :CulturalDifference .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference
+:CulturalDifference rdf:type owl:Class ;
+                    rdfs:subClassOf owl:Thing ;
+                    owl:disjointUnionOf ( :Conflict
+                                          :ICT
+                                          :Language
+                                          :Performance
+                                        ) .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction
+:Direction rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT
+:ICT rdf:type owl:Class ;
+     rdfs:subClassOf :CulturalDifference .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language
+:Language rdf:type owl:Class ;
+          rdfs:subClassOf :CulturalDifference .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance
+:Performance rdf:type owl:Class ;
+             rdfs:subClassOf :CulturalDifference .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy
+:Synergy rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team
+:Team rdf:type owl:Class ;
+      owl:equivalentClass [ rdf:type owl:Restriction ;
+                            owl:onProperty :communicatedBy ;
+                            owl:someValuesFrom :ICT
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :affectedBy ;
+                            owl:allValuesFrom :Conflict
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :consistOf ;
+                            owl:allValuesFrom <http://xmlns.com/foaf/0.1/Person>
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :releasedThrough ;
+                            owl:allValuesFrom :Synergy
+                          ] ;
+      rdfs:subClassOf owl:Thing .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :belongTo ;
+                                                         owl:someValuesFrom :Team
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :has ;
+                                                         owl:someValuesFrom :CulturalDifference
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :belongTo ;
+                                                         owl:allValuesFrom :Team
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :workIn ;
+                                                         owl:allValuesFrom :Company
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :account ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :country ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :yearOfExperience ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://xmlns.com/foaf/0.1/age> ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://xmlns.com/foaf/0.1/birthday> ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://xmlns.com/foaf/0.1/firstName> ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://xmlns.com/foaf/0.1/gender> ;
+                                                         owl:someValuesFrom rdfs:Literal
+                                                       ] ;
+                                   rdfs:subClassOf owl:Thing .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/ontology/Foaf:Person
+<http://dbpedia.org/ontology/Foaf:Person> rdf:type owl:NamedIndividual ;
+                                          owl:sameAs <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+
+###  http://mappings.dbpedia.org/index.php/OntologyClass:Company
+<http://mappings.dbpedia.org/index.php/OntologyClass:Company> rdf:type owl:NamedIndividual ;
+                                                              owl:sameAs :Company .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company
+
+###  http://mappings.dbpedia.org/index.php/OntologyClass:Language
+<http://mappings.dbpedia.org/index.php/OntologyClass:Language> rdf:type owl:NamedIndividual ;
+                                                               owl:sameAs :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:Age
+<http://mappings.dbpedia.org/index.php/OntologyProperty:Age> rdf:type owl:NamedIndividual ;
+                                                             owl:sameAs <http://xmlns.com/foaf/0.1/age> .
+
+
+###  http://xmlns.com/foaf/0.1/age
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:Country
+<http://mappings.dbpedia.org/index.php/OntologyProperty:Country> rdf:type owl:NamedIndividual ;
+                                                                 owl:sameAs :country .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:Foaf:gender
+<http://mappings.dbpedia.org/index.php/OntologyProperty:Foaf:gender> rdf:type owl:NamedIndividual ;
+                                                                     owl:sameAs <http://xmlns.com/foaf/0.1/gender> .
+
+
+###  http://xmlns.com/foaf/0.1/gender
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate
+:ACECertificate rdf:type owl:NamedIndividual ,
+                         :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking
+:AcceptSpeaking rdf:type owl:NamedIndividual ,
+                         :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting
+:AcceptWriting rdf:type owl:NamedIndividual ,
+                        :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay
+:AchievingGoalsInAcceptWay rdf:type owl:NamedIndividual ,
+                                    :Direction ;
+                           :selectedBy :ComputerSystemTeam ,
+                                       :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay
+:AchievingGoalsInAverageWay rdf:type owl:NamedIndividual ,
+                                     :Direction ;
+                            :selectedBy :HardAndTechnicalSupportTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay
+:AchievingGoalsInExcellentWay rdf:type owl:NamedIndividual ,
+                                       :Direction ;
+                              :selectedBy :ProgrammingTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay
+:AchievingGoalsInGoodWay rdf:type owl:NamedIndividual ,
+                                  :Direction ;
+                         :selectedBy :GraphicTeam ,
+                                     :ITSecurityTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay
+:AchievingGoalsInVeryGoodWay rdf:type owl:NamedIndividual ,
+                                      :Direction ;
+                             :selectedBy :NetworkTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany
+:AdsCompany rdf:type owl:NamedIndividual ,
+                     :Company ;
+            :employed :per10 ,
+                      :per17 ,
+                      :per21 ,
+                      :per30 ,
+                      :per41 ,
+                      :per8 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening
+:BadListening rdf:type owl:NamedIndividual ,
+                       :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking
+:BadSpeaking rdf:type owl:NamedIndividual ,
+                      :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting
+:BadWriting rdf:type owl:NamedIndividual ,
+                     :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany
+:BankingCompany rdf:type owl:NamedIndividual ,
+                         :Company ;
+                :employed :per16 ,
+                          :per24 ,
+                          :per27 ,
+                          :per35 ,
+                          :per38 ,
+                          :per42 ,
+                          :per44 ,
+                          :per6 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate
+:CEHCertificate rdf:type owl:NamedIndividual ,
+                         :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate
+:CISCOCertificate rdf:type owl:NamedIndividual ,
+                           :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate
+:CISSPcertificate rdf:type owl:NamedIndividual ,
+                           :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate
+:CS50Certificate rdf:type owl:NamedIndividual ,
+                          :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company
+:Company rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://en.wikipedia.org/wiki/Company> ,
+                    <https://www.wikidata.org/wiki/Q783794> .
+
+
+###  https://en.wikipedia.org/wiki/Company
+
+###  https://www.wikidata.org/wiki/Q783794
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany
+:ComputerAndTnformationTechnologyCompany rdf:type owl:NamedIndividual ,
+                                                  :Company ;
+                                         :employed :per1 ,
+                                                   :per14 ,
+                                                   :per18 ,
+                                                   :per20 ,
+                                                   :per22 ,
+                                                   :per26 ,
+                                                   :per33 ,
+                                                   :per43 ,
+                                                   :per46 ,
+                                                   :per7 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam
+:ComputerSystemTeam rdf:type owl:NamedIndividual ,
+                             :Team ;
+                    :affectedBy :Misunderstanding ;
+                    :communicatedBy :Email ,
+                                    :FaceToFace ,
+                                    :GoogleMeet ,
+                                    :ZoomMeeting ;
+                    :consistOf :per20 ,
+                               :per23 ,
+                               :per26 ,
+                               :per33 ,
+                               :per39 ,
+                               :per40 ,
+                               :per45 ,
+                               :per5 ,
+                               :per50 ;
+                    :directedBy :AchievingGoalsInAcceptWay ;
+                    :releasedThrough :UnifyCommunication ,
+                                     :UnifyLanguage ;
+                    :yearOfExperience "5 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict
+:Conflict rdf:type owl:NamedIndividual ;
+          owl:sameAs <https://www.wikidata.org/wiki/Q180684> .
+
+
+###  https://www.wikidata.org/wiki/Q180684
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction
+:Direction rdf:type owl:NamedIndividual ;
+           owl:sameAs <https://en.wikipedia.org/wiki/Direction> ,
+                      <https://www.wikidata.org/wiki/Q29017603> .
+
+
+###  https://en.wikipedia.org/wiki/Direction
+
+###  https://www.wikidata.org/wiki/Q29017603
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor
+:DivisionOfLabor rdf:type owl:NamedIndividual ,
+                          :Synergy ;
+                 :synergyWayTo :GraphicTeam ,
+                               :NetworkTeam ,
+                               :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email
+:Email rdf:type owl:NamedIndividual ,
+                :ICT ;
+       :communicationWayTo :ComputerSystemTeam ,
+                           :GraphicTeam ,
+                           :HardAndTechnicalSupportTeam ,
+                           :ITSecurityTeam ,
+                           :NetworkTeam ,
+                           :ProgrammingTeam ,
+                           :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace
+:FaceToFace rdf:type owl:NamedIndividual ,
+                     :ICT ;
+            :communicationWayTo :ComputerSystemTeam ,
+                                :GraphicTeam ,
+                                :HardAndTechnicalSupportTeam ,
+                                :ITSecurityTeam ,
+                                :NetworkTeam ,
+                                :ProgrammingTeam ,
+                                :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws
+:FollowingLaws rdf:type owl:NamedIndividual ,
+                        :Synergy ;
+               :synergyWayTo :HardAndTechnicalSupportTeam ,
+                             :ITSecurityTeam ,
+                             :ProgrammingTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening
+:GoodListening rdf:type owl:NamedIndividual ,
+                        :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking
+:GoodSpeaking rdf:type owl:NamedIndividual ,
+                       :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting
+:GoodWriting rdf:type owl:NamedIndividual ,
+                      :Language .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet
+:GoogleMeet rdf:type owl:NamedIndividual ,
+                     :ICT ;
+            :communicationWayTo :ComputerSystemTeam ,
+                                :GraphicTeam ,
+                                :NetworkTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam
+:GraphicTeam rdf:type owl:NamedIndividual ,
+                      :Team ;
+             :affectedBy :LackOfTrust ;
+             :communicatedBy :Email ,
+                             :FaceToFace ,
+                             :GoogleMeet ,
+                             :TeamViewer ;
+             :consistOf :per10 ,
+                        :per17 ,
+                        :per21 ,
+                        :per28 ,
+                        :per29 ,
+                        :per30 ,
+                        :per41 ,
+                        :per8 ;
+             :directedBy :AchievingGoalsInGoodWay ;
+             :releasedThrough :DivisionOfLabor ,
+                              :UnifyCommunication ,
+                              :UnifyLanguage ;
+             :yearOfExperience "8 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam
+:HardAndTechnicalSupportTeam rdf:type owl:NamedIndividual ,
+                                      :Team ;
+                             :affectedBy :InformationDeficiency ;
+                             :communicatedBy :Email ,
+                                             :FaceToFace ,
+                                             :Skype ,
+                                             :ZoomMeeting ;
+                             :consistOf :per16 ,
+                                        :per18 ,
+                                        :per2 ,
+                                        :per26 ,
+                                        :per34 ,
+                                        :per35 ,
+                                        :per39 ,
+                                        :per46 ,
+                                        :per7 ;
+                             :directedBy :AchievingGoalsInAverageWay ;
+                             :releasedThrough :FollowingLaws ,
+                                              :UnifyCommunication ,
+                                              :UnifyLanguage ;
+                             :yearOfExperience "7 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT
+:ICT rdf:type owl:NamedIndividual ;
+     owl:sameAs <https://en.wikipedia.org/wiki/ICT> ,
+                <https://www.wikidata.org/wiki/Q5268834> .
+
+
+###  https://en.wikipedia.org/wiki/ICT
+
+###  https://www.wikidata.org/wiki/Q5268834
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam
+:ITSecurityTeam rdf:type owl:NamedIndividual ,
+                         :Team ;
+                :affectedBy :LackOfRoleClarification ;
+                :communicatedBy :Email ,
+                                :FaceToFace ,
+                                :MicrosoftTeams ,
+                                :ZoomMeeting ;
+                :consistOf :per12 ,
+                           :per15 ,
+                           :per22 ,
+                           :per27 ,
+                           :per35 ,
+                           :per42 ,
+                           :per43 ;
+                :directedBy :AchievingGoalsInGoodWay ;
+                :releasedThrough :FollowingLaws ,
+                                 :UnifyCommunication ,
+                                 :UnifyLanguage ;
+                :yearOfExperience "10 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency
+:InformationDeficiency rdf:type owl:NamedIndividual ,
+                                :Conflict ;
+                       :causedTroubleTo :HardAndTechnicalSupportTeam ,
+                                        :ProgrammingTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification
+:LackOfRoleClarification rdf:type owl:NamedIndividual ,
+                                  :Conflict ;
+                         :causedTroubleTo :ITSecurityTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust
+:LackOfTrust rdf:type owl:NamedIndividual ,
+                      :Conflict ;
+             :causedTroubleTo :GraphicTeam ,
+                              :NetworkTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language
+:Language rdf:type owl:NamedIndividual ;
+          owl:sameAs <https://en.wikipedia.org/wiki/Language> ,
+                     <https://www.wikidata.org/wiki/Q315> .
+
+
+###  https://en.wikipedia.org/wiki/Language
+
+###  https://www.wikidata.org/wiki/Q315
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate
+:MCSACertificate rdf:type owl:NamedIndividual ,
+                          :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany
+:MarketingCompany rdf:type owl:NamedIndividual ,
+                           :Company ;
+                  :employed :per11 ,
+                            :per15 ,
+                            :per23 ,
+                            :per28 ,
+                            :per31 ,
+                            :per40 ,
+                            :per48 ,
+                            :per50 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany
+:MediaAndCommunicationCompany rdf:type owl:NamedIndividual ,
+                                       :Company ;
+                              :employed :per13 ,
+                                        :per19 ,
+                                        :per25 ,
+                                        :per29 ,
+                                        :per34 ,
+                                        :per37 ,
+                                        :per4 ,
+                                        :per49 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams
+:MicrosoftTeams rdf:type owl:NamedIndividual ,
+                         :ICT ;
+                :communicationWayTo :ITSecurityTeam ,
+                                    :ProgrammingTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding
+:Misunderstanding rdf:type owl:NamedIndividual ,
+                           :Conflict ;
+                  :causedTroubleTo :ComputerSystemTeam ,
+                                   :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale
+:Morale rdf:type owl:NamedIndividual ,
+                 :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam
+:NetworkTeam rdf:type owl:NamedIndividual ,
+                      :Team ;
+             :affectedBy :LackOfTrust ;
+             :communicatedBy :Email ,
+                             :FaceToFace ,
+                             :GoogleMeet ,
+                             :TeamViewer ;
+             :consistOf :per1 ,
+                        :per13 ,
+                        :per19 ,
+                        :per25 ,
+                        :per3 ,
+                        :per37 ,
+                        :per4 ,
+                        :per49 ;
+             :directedBy :AchievingGoalsInVeryGoodWay ;
+             :releasedThrough :DivisionOfLabor ,
+                              :UnifyCommunication ,
+                              :UnifyLanguage ;
+             :yearOfExperience "11 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany
+:OilAndGasCompany rdf:type owl:NamedIndividual ,
+                           :Company ;
+                  :employed :per12 ,
+                            :per2 ,
+                            :per3 ,
+                            :per32 ,
+                            :per36 ,
+                            :per39 ,
+                            :per45 ,
+                            :per47 ,
+                            :per5 ,
+                            :per9 .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork
+:OldWork rdf:type owl:NamedIndividual ,
+                  :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance
+:Performance rdf:type owl:NamedIndividual ;
+             owl:sameAs <https://www.wikidata.org/wiki/Q1296024> .
+
+
+###  https://www.wikidata.org/wiki/Q1296024
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam
+:ProgrammingTeam rdf:type owl:NamedIndividual ,
+                          :Team ;
+                 :affectedBy :InformationDeficiency ;
+                 :communicatedBy :Email ,
+                                 :FaceToFace ,
+                                 :MicrosoftTeams ,
+                                 :TeamViewer ;
+                 :consistOf :per11 ,
+                            :per24 ,
+                            :per27 ,
+                            :per32 ,
+                            :per36 ,
+                            :per38 ,
+                            :per44 ,
+                            :per47 ,
+                            :per6 ,
+                            :per9 ;
+                 :directedBy :AchievingGoalsInExcellentWay ;
+                 :releasedThrough :FollowingLaws ,
+                                  :UnifyCommunication ,
+                                  :UnifyLanguage ;
+                 :yearOfExperience "15 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate
+:RHCSACertificate rdf:type owl:NamedIndividual ,
+                           :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype
+:Skype rdf:type owl:NamedIndividual ,
+                :ICT ;
+       :communicationWayTo :HardAndTechnicalSupportTeam ,
+                           :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy
+:Synergy rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://en.wikipedia.org/wiki/Synergy> .
+
+
+###  https://en.wikipedia.org/wiki/Synergy
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team
+:Team rdf:type owl:NamedIndividual ;
+      owl:sameAs <https://en.wikipedia.org/wiki/Team> ,
+                 <https://www.wikidata.org/wiki/Q327245> .
+
+
+###  https://en.wikipedia.org/wiki/Team
+
+###  https://www.wikidata.org/wiki/Q327245
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer
+:TeamViewer rdf:type owl:NamedIndividual ,
+                     :ICT ;
+            :communicationWayTo :GraphicTeam ,
+                                :NetworkTeam ,
+                                :ProgrammingTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training
+:Training rdf:type owl:NamedIndividual ,
+                   :Performance .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication
+:UnifyCommunication rdf:type owl:NamedIndividual ,
+                             :Synergy ;
+                    :synergyWayTo :ComputerSystemTeam ,
+                                  :GraphicTeam ,
+                                  :HardAndTechnicalSupportTeam ,
+                                  :ITSecurityTeam ,
+                                  :NetworkTeam ,
+                                  :ProgrammingTeam ,
+                                  :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage
+:UnifyLanguage rdf:type owl:NamedIndividual ,
+                        :Synergy ;
+               :synergyWayTo :ComputerSystemTeam ,
+                             :GraphicTeam ,
+                             :HardAndTechnicalSupportTeam ,
+                             :ITSecurityTeam ,
+                             :NetworkTeam ,
+                             :ProgrammingTeam ,
+                             :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam
+:WebDevelopmentTeam rdf:type owl:NamedIndividual ,
+                             :Team ;
+                    :affectedBy :Misunderstanding ;
+                    :communicatedBy :Email ,
+                                    :FaceToFace ,
+                                    :Skype ,
+                                    :ZoomMeeting ;
+                    :consistOf :per14 ,
+                               :per19 ,
+                               :per29 ,
+                               :per31 ,
+                               :per4 ,
+                               :per47 ,
+                               :per48 ;
+                    :directedBy :AchievingGoalsInAcceptWay ;
+                    :releasedThrough :DivisionOfLabor ,
+                                     :UnifyCommunication ,
+                                     :UnifyLanguage ;
+                    :yearOfExperience "6 Years"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting
+:ZoomMeeting rdf:type owl:NamedIndividual ,
+                      :ICT ;
+             :communicationWayTo :ComputerSystemTeam ,
+                                 :HardAndTechnicalSupportTeam ,
+                                 :ITSecurityTeam ,
+                                 :WebDevelopmentTeam .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo
+:belongTo rdf:type owl:NamedIndividual ;
+          owl:sameAs <https://en.wikipedia.org/wiki/BeLonG_To> ,
+                     <https://www.wikidata.org/wiki/Q4875453> .
+
+
+###  https://en.wikipedia.org/wiki/BeLonG_To
+
+###  https://www.wikidata.org/wiki/Q4875453
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf
+:consistOf rdf:type owl:NamedIndividual ;
+           owl:sameAs <https://www.wikidata.org/wiki/Q55692548> .
+
+
+###  https://www.wikidata.org/wiki/Q55692548
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country
+:country rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://en.wikipedia.org/wiki/Country> ,
+                    <https://www.wikidata.org/wiki/Property:P17> .
+
+
+###  https://en.wikipedia.org/wiki/Country
+
+###  https://www.wikidata.org/wiki/Property:P17
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy
+:directedBy rdf:type owl:NamedIndividual ;
+            owl:sameAs <https://www.wikidata.org/wiki/Q96437530> .
+
+
+###  https://www.wikidata.org/wiki/Q96437530
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has
+:has rdf:type owl:NamedIndividual ;
+     owl:sameAs <https://en.wikipedia.org/wiki/Has> ,
+                <https://www.wikidata.org/wiki/Property:P912> .
+
+
+###  https://en.wikipedia.org/wiki/Has
+
+###  https://www.wikidata.org/wiki/Property:P912
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1
+:per1 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :NetworkTeam ;
+      :has :AcceptSpeaking ,
+           :CISCOCertificate ,
+           :GoodListening ,
+           :GoodWriting ,
+           :Morale ,
+           :Training ;
+      :workIn :ComputerAndTnformationTechnologyCompany ;
+      :account "Alialasadi87@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "10" ;
+      <http://xmlns.com/foaf/0.1/age> "35" ;
+      <http://xmlns.com/foaf/0.1/birthday> "25/11/1987" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Ali" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10
+:per10 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :AcceptWriting ,
+            :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :Morale ,
+            :OldWork ,
+            :Training ;
+       :workIn :AdsCompany ;
+       :account "Hoshiarhoshiar85@gmail.com" ;
+       :country "Iraq/Kurdistan" ;
+       :yearOfExperience "12" ;
+       <http://xmlns.com/foaf/0.1/age> "42" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/5/1980" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Hoshiar" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11
+:per11 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :BadListening ,
+            :CS50Certificate ,
+            :Training ;
+       :workIn :MarketingCompany ;
+       :account "Sufi.r.a.19692@gmail.com" ;
+       :country "Singapore" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "30" ;
+       <http://xmlns.com/foaf/0.1/birthday> "19/6/1992" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Sufi" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12
+:per12 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ;
+       :has :ACECertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ,
+            :RHCSACertificate ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "Oliver.james@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "16" ;
+       <http://xmlns.com/foaf/0.1/age> "47" ;
+       <http://xmlns.com/foaf/0.1/birthday> "11/4/1975" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Oliver" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13
+:per13 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :NetworkTeam ;
+       :has :CISCOCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ,
+            :Training ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "Lucashenry22@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "9" ;
+       <http://xmlns.com/foaf/0.1/age> "39" ;
+       <http://xmlns.com/foaf/0.1/birthday> "25/1/1983" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Lucas" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14
+:per14 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :WebDevelopmentTeam ;
+       :has :CEHCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :MCSACertificate ,
+            :OldWork ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "Noahwilliam77@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "20" ;
+       <http://xmlns.com/foaf/0.1/age> "45" ;
+       <http://xmlns.com/foaf/0.1/birthday> "5/8/1977" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Noah" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15
+:per15 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ;
+       :has :ACECertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ;
+       :workIn :MarketingCompany ;
+       :account "Cooperedward.c1988@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "12" ;
+       <http://xmlns.com/foaf/0.1/age> "34" ;
+       <http://xmlns.com/foaf/0.1/birthday> "20/9/1988" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Cooper" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16
+:per16 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :HardAndTechnicalSupportTeam ;
+       :has :CS50Certificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "Jacksongeorge-227@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "33" ;
+       <http://xmlns.com/foaf/0.1/birthday> "27/10/1989" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Jackson" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17
+:per17 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :CEHCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ;
+       :workIn :AdsCompany ;
+       :account "Emily.H.W89@gmail.com" ;
+       :country "Australia" ;
+       :yearOfExperience "4" ;
+       <http://xmlns.com/foaf/0.1/age> "28" ;
+       <http://xmlns.com/foaf/0.1/birthday> "13/7/1994" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Emily" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18
+:per18 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :HardAndTechnicalSupportTeam ;
+       :has :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ,
+            :Training ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "Adam.m.mohameed@gmail.com" ;
+       :country "Malaysia" ;
+       :yearOfExperience "1" ;
+       <http://xmlns.com/foaf/0.1/age> "26" ;
+       <http://xmlns.com/foaf/0.1/birthday> "2/12/1996" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Adam" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19
+:per19 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :NetworkTeam ,
+                 :WebDevelopmentTeam ;
+       :has :CISCOCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "Rayanabdulla-91@gmail.com" ;
+       :country "Malaysia" ;
+       :yearOfExperience "3" ;
+       <http://xmlns.com/foaf/0.1/age> "31" ;
+       <http://xmlns.com/foaf/0.1/birthday> "28/8/1991" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Rayan" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2
+:per2 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :HardAndTechnicalSupportTeam ;
+      :has :AcceptSpeaking ,
+           :AcceptWriting ,
+           :BadListening ,
+           :Morale ,
+           :Training ;
+      :workIn :OilAndGasCompany ;
+      :account "noorabdullah231997@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "2" ;
+      <http://xmlns.com/foaf/0.1/age> "25" ;
+      <http://xmlns.com/foaf/0.1/birthday> "2/3/1997" ;
+      <http://xmlns.com/foaf/0.1/firstName> "noor" ;
+      <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20
+:per20 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ,
+            :RHCSACertificate ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "Danish.j.kareem@gmail.com" ;
+       :country "Malaysia" ;
+       :yearOfExperience "8" ;
+       <http://xmlns.com/foaf/0.1/age> "36" ;
+       <http://xmlns.com/foaf/0.1/birthday> "10/5/1986" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Danish" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21
+:per21 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :AdsCompany ;
+       :account "Aishamohmeed.computer@gmail.com" ;
+       :country "Malaysia" ;
+       :yearOfExperience "15" ;
+       <http://xmlns.com/foaf/0.1/age> "42" ;
+       <http://xmlns.com/foaf/0.1/birthday> "13/2/1980" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Aisha" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22
+:per22 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ;
+       :has :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :MCSACertificate ,
+            :Morale ,
+            :OldWork ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "Zara.yousif84@gmail.com" ;
+       :country "Malaysia" ;
+       :yearOfExperience "11" ;
+       <http://xmlns.com/foaf/0.1/age> "38" ;
+       <http://xmlns.com/foaf/0.1/birthday> "7/5/1984" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Zara" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23
+:per23 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :ACECertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ;
+       :workIn :MarketingCompany ;
+       :account "Lukasaden2007@gmail.com" ;
+       :country "Singapore" ;
+       :yearOfExperience "9" ;
+       <http://xmlns.com/foaf/0.1/age> "35" ;
+       <http://xmlns.com/foaf/0.1/birthday> "21/7/1987" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Lukas" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24
+:per24 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :RHCSACertificate ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "Aria.b.e@gmail.com" ;
+       :country "Singapore" ;
+       :yearOfExperience "3" ;
+       <http://xmlns.com/foaf/0.1/age> "28" ;
+       <http://xmlns.com/foaf/0.1/birthday> "7/9/1994" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Aria" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25
+:per25 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :NetworkTeam ;
+       :has :CISCOCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "Cali.sin-199@gmail.com" ;
+       :country "Singapore" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "30" ;
+       <http://xmlns.com/foaf/0.1/birthday> "23/11/1992" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Cali" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26
+:per26 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ,
+                 :HardAndTechnicalSupportTeam ;
+       :has :CEHCertificate ,
+            :CS50Certificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ,
+            :OldWork ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "Dylan.a.m/267@gmail.com" ;
+       :country "Singapore" ;
+       :yearOfExperience "17" ;
+       <http://xmlns.com/foaf/0.1/age> "49" ;
+       <http://xmlns.com/foaf/0.1/birthday> "22/2/1973" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Dylan" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27
+:per27 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ,
+                 :ProgrammingTeam ;
+       :has :ACECertificate ,
+            :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ;
+       :workIn :BankingCompany ;
+       :account "Qasim.jamal.qasim@gmail.com" ;
+       :country "Jordan" ;
+       :yearOfExperience "30" ;
+       <http://xmlns.com/foaf/0.1/age> "55" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/4/1967" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Qasim" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28
+:per28 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Morale ,
+            :Training ;
+       :workIn :MarketingCompany ;
+       :account "Hesham.m.salah@gmail.com" ;
+       :country "Jordan" ;
+       :yearOfExperience "4" ;
+       <http://xmlns.com/foaf/0.1/age> "29" ;
+       <http://xmlns.com/foaf/0.1/birthday> "13/1/1993" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Hesham" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29
+:per29 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ,
+                 :WebDevelopmentTeam ;
+       :has :CISCOCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :MCSACertificate ,
+            :Morale ,
+            :OldWork ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "Jamil.2002@gmail.com" ;
+       :country "Jordan" ;
+       :yearOfExperience "35" ;
+       <http://xmlns.com/foaf/0.1/age> "59" ;
+       <http://xmlns.com/foaf/0.1/birthday> "31/10/1963" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Jamil" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3
+:per3 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :NetworkTeam ;
+      :has :AcceptSpeaking ,
+           :AcceptWriting ,
+           :CISCOCertificate ,
+           :GoodListening ,
+           :Morale ,
+           :Training ;
+      :workIn :OilAndGasCompany ;
+      :account "Ahmed.j.k@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "5" ;
+      <http://xmlns.com/foaf/0.1/age> "30" ;
+      <http://xmlns.com/foaf/0.1/birthday> "15/11/1992" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Ahmed" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30
+:per30 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Morale ,
+            :Training ;
+       :workIn :AdsCompany ;
+       :account "Reem.j.mohammed@gmail.com" ;
+       :country "Jordan" ;
+       :yearOfExperience "2" ;
+       <http://xmlns.com/foaf/0.1/age> "27" ;
+       <http://xmlns.com/foaf/0.1/birthday> "8/7/1995" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Reem" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31
+:per31 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :WebDevelopmentTeam ;
+       :has :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ,
+            :RHCSACertificate ;
+       :workIn :MarketingCompany ;
+       :account "Mahaabdullah@gmail.com" ;
+       :country "Jordan" ;
+       :yearOfExperience "14" ;
+       <http://xmlns.com/foaf/0.1/age> "41" ;
+       <http://xmlns.com/foaf/0.1/birthday> "27/5/1981" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Maha" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32
+:per32 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :CEHCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "sajaa.m.radi85@gmail.com" ;
+       :country "Saudi Arabia" ;
+       :yearOfExperience "8" ;
+       <http://xmlns.com/foaf/0.1/age> "37" ;
+       <http://xmlns.com/foaf/0.1/birthday> "15/6/1985" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Saja" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33
+:per33 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Morale ,
+            :Training ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "rawa-rashed90@gmail.com" ;
+       :country "Saudi Arabia" ;
+       :yearOfExperience "7" ;
+       <http://xmlns.com/foaf/0.1/age> "32" ;
+       <http://xmlns.com/foaf/0.1/birthday> "28/7/1990" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Rawa" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34
+:per34 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :HardAndTechnicalSupportTeam ;
+       :has :CISCOCertificate ,
+            :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "baderalshapi-1979@gmail.com" ;
+       :country "Saudi Arabia" ;
+       :yearOfExperience "14" ;
+       <http://xmlns.com/foaf/0.1/age> "43" ;
+       <http://xmlns.com/foaf/0.1/birthday> "7/8/1979" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Bader" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35
+:per35 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :HardAndTechnicalSupportTeam ,
+                 :ITSecurityTeam ;
+       :has :ACECertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :MCSACertificate ,
+            :OldWork ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "banderabduljabbar70@gmail.com" ;
+       :country "Saudi Arabia" ;
+       :yearOfExperience "25" ;
+       <http://xmlns.com/foaf/0.1/age> "52" ;
+       <http://xmlns.com/foaf/0.1/birthday> "10/9/1970" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Bander" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36
+:per36 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :CS50Certificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "abdullahabdullah631986@gmail.com" ;
+       :country "Saudi Arabia" ;
+       :yearOfExperience "6" ;
+       <http://xmlns.com/foaf/0.1/age> "36" ;
+       <http://xmlns.com/foaf/0.1/birthday> "2/12/1986" ;
+       <http://xmlns.com/foaf/0.1/firstName> "abdullah" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37
+:per37 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :NetworkTeam ;
+       :has :AcceptWriting ,
+            :CISCOCertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :Morale ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "kadhim.harbi@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "32" ;
+       <http://xmlns.com/foaf/0.1/birthday> "12/7/1990" ;
+       <http://xmlns.com/foaf/0.1/firstName> "kadhim" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38
+:per38 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :BadListening ,
+            :Morale ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "maher.alzoor@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "4" ;
+       <http://xmlns.com/foaf/0.1/age> "29" ;
+       <http://xmlns.com/foaf/0.1/birthday> "25/7/1993" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Maher" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39
+:per39 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ,
+                 :HardAndTechnicalSupportTeam ;
+       :has :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Morale ,
+            :OldWork ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "abdulwahed.ahmed1977@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "17" ;
+       <http://xmlns.com/foaf/0.1/age> "45" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/4/1977" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Abdulwahed" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4
+:per4 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :NetworkTeam ,
+                :WebDevelopmentTeam ;
+      :has :CISCOCertificate ,
+           :GoodListening ,
+           :GoodSpeaking ,
+           :GoodWriting ,
+           :MCSACertificate ,
+           :Training ;
+      :workIn :MediaAndCommunicationCompany ;
+      :account "marwanaldosary@gmail.com" ;
+      :country "Saudi Arabia" ;
+      :yearOfExperience "23" ;
+      <http://xmlns.com/foaf/0.1/age> "50" ;
+      <http://xmlns.com/foaf/0.1/birthday> "31/10/1972" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Marwan" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40
+:per40 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :BadListening ,
+            :Morale ,
+            :Training ;
+       :workIn :MarketingCompany ;
+       :account "taha-dirawi@hotmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "33" ;
+       <http://xmlns.com/foaf/0.1/birthday> "17/5/1989" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Taha" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41
+:per41 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :GraphicTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Training ;
+       :workIn :AdsCompany ;
+       :account "j.m.ahmed@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "8" ;
+       <http://xmlns.com/foaf/0.1/age> "34" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/2/1988" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Jassim" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42
+:per42 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ;
+       :has :ACECertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "waseem.m.mohammed@coie-nahrain.edu.iq" ;
+       :country "Iraq" ;
+       :yearOfExperience "10" ;
+       <http://xmlns.com/foaf/0.1/age> "36" ;
+       <http://xmlns.com/foaf/0.1/birthday> "11/11/1986" ;
+       <http://xmlns.com/foaf/0.1/firstName> "waseem" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43
+:per43 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ITSecurityTeam ;
+       :has :AcceptSpeaking ,
+            :CEHCertificate ,
+            :GoodListening ,
+            :GoodWriting ,
+            :Morale ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "falah.comp87@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "6" ;
+       <http://xmlns.com/foaf/0.1/age> "35" ;
+       <http://xmlns.com/foaf/0.1/birthday> "4/9/1987" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Falah" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44
+:per44 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ;
+       :has :AcceptSpeaking ,
+            :GoodListening ,
+            :GoodWriting ,
+            :MCSACertificate ,
+            :Training ;
+       :workIn :BankingCompany ;
+       :account "kareem.hasan@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "7" ;
+       <http://xmlns.com/foaf/0.1/age> "35" ;
+       <http://xmlns.com/foaf/0.1/birthday> "29/6/1987" ;
+       <http://xmlns.com/foaf/0.1/firstName> "abdulkareem" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45
+:per45 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "hibaabdulhussein2012@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "5" ;
+       <http://xmlns.com/foaf/0.1/age> "32" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/7/1990" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Hiba" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46
+:per46 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :HardAndTechnicalSupportTeam ;
+       :has :CS50Certificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ,
+            :Training ;
+       :workIn :ComputerAndTnformationTechnologyCompany ;
+       :account "marwa119@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "15" ;
+       <http://xmlns.com/foaf/0.1/age> "42" ;
+       <http://xmlns.com/foaf/0.1/birthday> "3/8/1980" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Marwa" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47
+:per47 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ProgrammingTeam ,
+                 :WebDevelopmentTeam ;
+       :has :ACECertificate ,
+            :CISSPcertificate ,
+            :GoodListening ,
+            :GoodSpeaking ,
+            :GoodWriting ,
+            :OldWork ,
+            :Training ;
+       :workIn :OilAndGasCompany ;
+       :account "fadhil.ali.1969@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "21" ;
+       <http://xmlns.com/foaf/0.1/age> "53" ;
+       <http://xmlns.com/foaf/0.1/birthday> "27/1/1969" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Fafhil" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48
+:per48 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :WebDevelopmentTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :GoodListening ,
+            :Morale ,
+            :RHCSACertificate ,
+            :Training ;
+       :workIn :MarketingCompany ;
+       :account "qasimalkabi85@yahoo.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "11" ;
+       <http://xmlns.com/foaf/0.1/age> "37" ;
+       <http://xmlns.com/foaf/0.1/birthday> "1/6/1985" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Qasim" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49
+:per49 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :NetworkTeam ;
+       :has :AcceptSpeaking ,
+            :AcceptWriting ,
+            :CISCOCertificate ,
+            :GoodListening ,
+            :OldWork ,
+            :Training ;
+       :workIn :MediaAndCommunicationCompany ;
+       :account "mustafa.ali.1986@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "10" ;
+       <http://xmlns.com/foaf/0.1/age> "36" ;
+       <http://xmlns.com/foaf/0.1/birthday> "13/12/1986" ;
+       <http://xmlns.com/foaf/0.1/firstName> "mustafa" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5
+:per5 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :ComputerSystemTeam ;
+      :has :CS50Certificate ,
+           :GoodListening ,
+           :GoodSpeaking ,
+           :GoodWriting ,
+           :OldWork ,
+           :Training ;
+      :workIn :OilAndGasCompany ;
+      :account "Khaledkhaled81@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "17" ;
+      <http://xmlns.com/foaf/0.1/age> "41" ;
+      <http://xmlns.com/foaf/0.1/birthday> "5/12/1981" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Khaled" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50
+:per50 rdf:type owl:NamedIndividual ,
+                <http://xmlns.com/foaf/0.1/Person> ;
+       :belongTo :ComputerSystemTeam ;
+       :has :AcceptWriting ,
+            :BadListening ,
+            :BadSpeaking ,
+            :Morale ,
+            :Training ;
+       :workIn :MarketingCompany ;
+       :account "zahraa.alshawi@gmail.com" ;
+       :country "Iraq" ;
+       :yearOfExperience "2" ;
+       <http://xmlns.com/foaf/0.1/age> "26" ;
+       <http://xmlns.com/foaf/0.1/birthday> "25/11/1996" ;
+       <http://xmlns.com/foaf/0.1/firstName> "Zahraa" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6
+:per6 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :ProgrammingTeam ;
+      :has :AcceptSpeaking ,
+           :BadWriting ,
+           :GoodListening ,
+           :Morale ,
+           :Training ;
+      :workIn :BankingCompany ;
+      :account "Ayman.A.amran@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "3" ;
+      <http://xmlns.com/foaf/0.1/age> "29" ;
+      <http://xmlns.com/foaf/0.1/birthday> "2/6/1993" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Ayman" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7
+:per7 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :HardAndTechnicalSupportTeam ;
+      :has :AcceptSpeaking ,
+           :AcceptWriting ,
+           :BadListening ,
+           :Morale ,
+           :Training ;
+      :workIn :ComputerAndTnformationTechnologyCompany ;
+      :account "Nawrasalsaadi31@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "1" ;
+      <http://xmlns.com/foaf/0.1/age> "27" ;
+      <http://xmlns.com/foaf/0.1/birthday> "31/3/1995" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Nawras" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8
+:per8 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :GraphicTeam ;
+      :has :AcceptWriting ,
+           :CEHCertificate ,
+           :GoodListening ,
+           :GoodSpeaking ,
+           :Training ;
+      :workIn :AdsCompany ;
+      :account "Elafhameed1990@gmail.com" ;
+      :country "Iraq" ;
+      :yearOfExperience "5" ;
+      <http://xmlns.com/foaf/0.1/age> "32" ;
+      <http://xmlns.com/foaf/0.1/birthday> "27/12/1990" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Elaf" ;
+      <http://xmlns.com/foaf/0.1/gender> "Female" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9
+:per9 rdf:type owl:NamedIndividual ,
+               <http://xmlns.com/foaf/0.1/Person> ;
+      :belongTo :ProgrammingTeam ;
+      :has :ACECertificate ,
+           :AcceptSpeaking ,
+           :AcceptWriting ,
+           :GoodListening ,
+           :Training ;
+      :workIn :OilAndGasCompany ;
+      :account "Azad.h.renas@gmail.com" ;
+      :country "Iraq/Kurdistan" ;
+      :yearOfExperience "7" ;
+      <http://xmlns.com/foaf/0.1/age> "37" ;
+      <http://xmlns.com/foaf/0.1/birthday> "2/3/1985" ;
+      <http://xmlns.com/foaf/0.1/firstName> "Azad" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" .
+
+
+###  http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn
+:workIn rdf:type owl:NamedIndividual ;
+        owl:sameAs <https://en.wikipedia.org/wiki/Work-in> ,
+                   <https://www.wikidata.org/wiki/Q3569922> .
+
+
+###  https://en.wikipedia.org/wiki/Work-in
+
+###  https://www.wikidata.org/wiki/Q3569922
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:NamedIndividual ;
+                                   owl:sameAs <https://www.wikidata.org/wiki/Q215627> .
+
+
+###  https://www.wikidata.org/wiki/Q215627
+
+###  http://xmlns.com/foaf/0.1/age
+<http://xmlns.com/foaf/0.1/age> rdf:type owl:NamedIndividual .
+
+
+###  http://xmlns.com/foaf/0.1/gender
+<http://xmlns.com/foaf/0.1/gender> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/BeLonG_To
+<https://en.wikipedia.org/wiki/BeLonG_To> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Company
+<https://en.wikipedia.org/wiki/Company> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Country
+<https://en.wikipedia.org/wiki/Country> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Direction
+<https://en.wikipedia.org/wiki/Direction> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Has
+<https://en.wikipedia.org/wiki/Has> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/ICT
+<https://en.wikipedia.org/wiki/ICT> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Language
+<https://en.wikipedia.org/wiki/Language> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Synergy
+<https://en.wikipedia.org/wiki/Synergy> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Team
+<https://en.wikipedia.org/wiki/Team> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Work-in
+<https://en.wikipedia.org/wiki/Work-in> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1296024
+<https://www.wikidata.org/wiki/Q1296024> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q180684
+<https://www.wikidata.org/wiki/Q180684> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q215627
+<https://www.wikidata.org/wiki/Q215627> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q29017603
+<https://www.wikidata.org/wiki/Q29017603> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q315
+<https://www.wikidata.org/wiki/Q315> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q327245
+<https://www.wikidata.org/wiki/Q327245> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q3569922
+<https://www.wikidata.org/wiki/Q3569922> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q4875453
+<https://www.wikidata.org/wiki/Q4875453> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q5268834
+<https://www.wikidata.org/wiki/Q5268834> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q55692548
+<https://www.wikidata.org/wiki/Q55692548> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q783794
+<https://www.wikidata.org/wiki/Q783794> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q96437530
+<https://www.wikidata.org/wiki/Q96437530> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Property:P17
+<https://www.wikidata.org/wiki/Property:P17> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Property:P912
+<https://www.wikidata.org/wiki/Property:P912> rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Company rdfs:comment "legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective"@en ;
+         rdfs:label "Company"@en .
+
+
+:Conflict rdfs:comment "friction, disagreement, or discord within a group or between different groups"@en ;
+          rdfs:label "conflict"@en .
+
+
+:ICT rdfs:comment "Use of telecommunications and computers to communicate between team members"@en ;
+     rdfs:label "Information And Communication Technology"@en .
+
+
+:Language rdfs:comment "capability to communicate using signs, such as words or gestures, by learning, choosing or adapting a conventional language to the other locutors for an effective usage"@en ;
+          rdfs:label "Language"@en .
+
+
+:Performance rdfs:comment "capability of producing the desired result"@en ;
+             rdfs:label "Performance"@en .
+
+
+:Team rdfs:comment "group linked in a common purpose"@en ;
+      rdfs:label "Team"@en .
+
+
+:belongTo <http://purl.org/dc/elements/1.1/description> "The person belong to the team"@en ;
+          rdfs:comment "ينتمي الى" .
+
+
+:consistOf <http://purl.org/dc/elements/1.1/description> "The team consists of many person"@en ;
+           rdfs:comment "يتألف من" .
+
+
+:country rdfs:comment "country for each team member"@en ;
+         rdfs:label "country"@en ;
+         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+
+
+:has <http://purl.org/dc/elements/1.1/description> "the person  has a cutural difference"@en ;
+     rdfs:comment "يمتلك"@en .
+
+
+:workIn <http://purl.org/dc/elements/1.1/description> "The person works in the company"@en ;
+        rdfs:comment "يعمل في" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
