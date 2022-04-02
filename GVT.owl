@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:wot="http://xmlns.com/wot/0.1/"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Annotation properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Object Properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<dc:description xml:lang="en">The team affected by the conflict</dc:description>
+	<rdfs:comment>يتأثر</rdfs:comment>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#causedTroubleTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<dc:description xml:lang="en">conflict caused trouble to all   team</dc:description>
+	<rdfs:comment>مشكلة</rdfs:comment>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<dc:description xml:lang="en">All team communication by means of communication</dc:description>
+	<rdfs:comment>التواصل</rdfs:comment>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicationWayTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#employed">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<dc:description xml:lang="en">any company employed some person</dc:description>
+	<rdfs:comment>توظيف</rdfs:comment>
+	<rdfs:isDefinedBy></rdfs:isDefinedBy>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#selectedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<dc:description xml:lang="en">direction selected the team</dc:description>
+	<rdfs:comment>المحدد</rdfs:comment>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#synergyWayTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Data properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:comment xml:lang="en">Account for communication between individuals</rdfs:comment>
+	<rdfs:label xml:lang="en">account</rdfs:label>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:comment xml:lang="en">years of experience for each team member</rdfs:comment>
+	<rdfs:label xml:lang="en">yearOfExperience</rdfs:label>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/age -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/age">
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/birthday -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/birthday">
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/firstName -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/firstName">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/gender -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
+	<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Classes -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<owl:disjointUnionOf rdf:nodeID="genid4"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid4">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<rdf:rest rdf:nodeID="genid3"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid3">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<rdf:rest rdf:nodeID="genid2"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid2">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+	<rdf:rest rdf:nodeID="genid1"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid1">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<owl:equivalentClass rdf:nodeID="genid5"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#communicatedBy"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<owl:equivalentClass rdf:nodeID="genid6"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#affectedBy"/>
+	<owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<owl:equivalentClass rdf:nodeID="genid7"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf"/>
+	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<owl:equivalentClass rdf:nodeID="genid8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid8">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#releasedThrough"/>
+	<owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/Person -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid9">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid10"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CulturalDifference"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid11"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo"/>
+	<owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid12"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid12">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn"/>
+	<owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid13"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid13">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#account"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid14"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid14">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid15"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid15">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#yearOfExperience"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid16"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid16">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/age"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid17"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/birthday"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid18"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid18">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<owl:equivalentClass rdf:nodeID="genid19"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid19">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/gender"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Individuals -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!--  https://www.wikidata.org/wiki/Q5268834 -->
+
+<rdf:Description rdf:about=" https://www.wikidata.org/wiki/Q5268834">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+</rdf:Description>
+<!--  -->
+<!-- http://dbpedia.org/ontology/Foaf:Person -->
+
+<rdf:Description rdf:about="http://dbpedia.org/ontology/Foaf:Person">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<!--  -->
+<!-- http://mappings.dbpedia.org/index.php/OntologyClass:Company -->
+
+<rdf:Description rdf:about="http://mappings.dbpedia.org/index.php/OntologyClass:Company">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+</rdf:Description>
+<!--  -->
+<!-- http://mappings.dbpedia.org/index.php/OntologyClass:Language -->
+
+<rdf:Description rdf:about="http://mappings.dbpedia.org/index.php/OntologyClass:Language">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://mappings.dbpedia.org/index.php/OntologyProperty:Age -->
+
+<rdf:Description rdf:about="http://mappings.dbpedia.org/index.php/OntologyProperty:Age">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://xmlns.com/foaf/0.1/age"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/age">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- http://mappings.dbpedia.org/index.php/OntologyProperty:Country -->
+
+<rdf:Description rdf:about="http://mappings.dbpedia.org/index.php/OntologyProperty:Country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country"/>
+</rdf:Description>
+<!--  -->
+<!-- http://mappings.dbpedia.org/index.php/OntologyProperty:Foaf:gender -->
+
+<rdf:Description rdf:about="http://mappings.dbpedia.org/index.php/OntologyProperty:Foaf:gender">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="http://xmlns.com/foaf/0.1/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction"/>
+	<selectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Company"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q783794"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q180684"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Direction">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Direction"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q29017603"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAverageWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">7 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/ICT"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInGoodWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">10 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfRoleClarification">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Language"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q315"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<causedTroubleTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#LackOfTrust"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoogleMeet"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInVeryGoodWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5"/>
+	<employed rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1296024"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#InformationDeficiency"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MicrosoftTeams"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInExcellentWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FollowingLaws"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">15 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Synergy"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Team"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q327245"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#TeamViewer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Synergy"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<synergyWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team"/>
+	<affectedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Misunderstanding"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Email"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#FaceToFace"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Skype"/>
+	<communicatedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47"/>
+	<consistOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48"/>
+	<directedBy rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AchievingGoalsInAcceptWay"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#DivisionOfLabor"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyCommunication"/>
+	<releasedThrough rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#UnifyLanguage"/>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">6 Years</yearOfExperience>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ZoomMeeting">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<communicationWayTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/BeLonG_To"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4875453"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q55692548"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Country"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Property:P17"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#directedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q96437530"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Has"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Property:P912"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alialasadi87@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25/11/1987</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoshiarhoshiar85@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq/Kurdistan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/5/1980</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoshiar</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sufi.r.a.19692@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19/6/1992</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sufi</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per12">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oliver.james@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/4/1975</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oliver</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per13">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucashenry22@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25/1/1983</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per14">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noahwilliam77@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/8/1977</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noah</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per15">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooperedward.c1988@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/9/1988</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooper</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per16">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacksongeorge-227@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/10/1989</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emily.H.W89@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/7/1994</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emily</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per18">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam.m.mohameed@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/12/1996</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per19">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rayanabdulla-91@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28/8/1991</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rayan</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noorabdullah231997@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/3/1997</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noor</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per20">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish.j.kareem@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/5/1986</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per21">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aishamohmeed.computer@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/2/1980</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisha</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per22">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zara.yousif84@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7/5/1984</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zara</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per23">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lukasaden2007@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21/7/1987</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lukas</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per24">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aria.b.e@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7/9/1994</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aria</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per25">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cali.sin-199@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23/11/1992</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cali</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per26">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dylan.a.m/267@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22/2/1973</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dylan</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per27">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qasim.jamal.qasim@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/4/1967</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qasim</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per28">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hesham.m.salah@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/1/1993</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hesham</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per29">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamil.2002@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31/10/1963</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamil</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per3">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmed.j.k@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15/11/1992</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmed</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per30">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reem.j.mohammed@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8/7/1995</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reem</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per31">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahaabdullah@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/5/1981</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maha</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per32">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sajaa.m.radi85@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15/6/1985</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saja</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per33">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rawa-rashed90@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28/7/1990</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rawa</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per34">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baderalshapi-1979@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7/8/1979</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bader</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per35">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banderabduljabbar70@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/9/1970</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bander</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per36">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdullahabdullah631986@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/12/1986</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdullah</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per37">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kadhim.harbi@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/7/1990</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kadhim</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per38">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maher.alzoor@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25/7/1993</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maher</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per39">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdulwahed.ahmed1977@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/4/1977</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdulwahed</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marwanaldosary@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31/10/1972</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marwan</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per40">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taha-dirawi@hotmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/5/1989</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taha</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per41">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">j.m.ahmed@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/2/1988</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jassim</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per42">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waseem.m.mohammed@coie-nahrain.edu.iq</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/11/1986</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waseem</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per43">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ITSecurityTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">falah.comp87@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4/9/1987</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falah</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per44">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kareem.hasan@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29/6/1987</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdulkareem</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per45">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hibaabdulhussein2012@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/7/1990</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hiba</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per46">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marwa119@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/8/1980</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marwa</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per47">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISSPcertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fadhil.ali.1969@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/1/1969</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fafhil</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per48">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#WebDevelopmentTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#RHCSACertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qasimalkabi85@yahoo.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1/6/1985</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qasim</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per49">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#NetworkTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CISCOCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MediaAndCommunicationCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mustafa.ali.1986@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/12/1986</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mustafa</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CS50Certificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OldWork"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khaledkhaled81@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/12/1981</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khaled</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per50">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerSystemTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#MarketingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zahraa.alshawi@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25/11/1996</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zahraa</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BankingCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayman.A.amran@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/6/1993</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayman</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#HardAndTechnicalSupportTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#BadListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Morale"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ComputerAndTnformationTechnologyCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nawrasalsaadi31@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31/3/1995</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nawras</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per8">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GraphicTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#CEHCertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AdsCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elafhameed1990@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/12/1990</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elaf</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9 -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#per9">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<belongTo rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ProgrammingTeam"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ACECertificate"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptSpeaking"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#AcceptWriting"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#GoodListening"/>
+	<has rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Training"/>
+	<workIn rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#OilAndGasCompany"/>
+	<account rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azad.h.renas@gmail.com</account>
+	<country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq/Kurdistan</country>
+	<yearOfExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</yearOfExperience>
+	<foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</foaf:age>
+	<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2/3/1985</foaf:birthday>
+	<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azad</foaf:firstName>
+	<foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+</rdf:Description>
+<!--  -->
+<!-- http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Work-in"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3569922"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/Person -->
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q215627"/>
+</rdf:Description>
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/age -->
+<!--  -->
+<!-- http://xmlns.com/foaf/0.1/gender -->
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/BeLonG_To -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/BeLonG_To">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Company -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Company">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Country -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Country">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Direction -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Direction">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Has -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Has">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/ICT -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/ICT">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Language -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Language">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Synergy -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Synergy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Team -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Team">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://en.wikipedia.org/wiki/Work-in -->
+
+<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Work-in">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q1296024 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1296024">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q180684 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q180684">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q215627 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q215627">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q29017603 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q29017603">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q315 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q315">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q327245 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q327245">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q3569922 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3569922">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q4875453 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q4875453">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q55692548 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q55692548">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q783794 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q783794">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Q96437530 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Q96437530">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Property:P17 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!-- https://www.wikidata.org/wiki/Property:P912 -->
+
+<rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P912">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Annotations -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Company">
+	<rdfs:label xml:lang="en">Company</rdfs:label>
+	<rdfs:comment xml:lang="en">legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective</rdfs:comment>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Conflict">
+	<rdfs:comment xml:lang="en">friction, disagreement, or discord within a group or between different groups</rdfs:comment>
+	<rdfs:label xml:lang="en">conflict</rdfs:label>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#ICT">
+	<rdfs:comment xml:lang="en">Use of telecommunications and computers to communicate between team members</rdfs:comment>
+	<rdfs:label xml:lang="en">Information And Communication Technology</rdfs:label>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Language">
+	<rdfs:label xml:lang="en">Language</rdfs:label>
+	<rdfs:comment xml:lang="en">capability to communicate using signs, such as words or gestures, by learning, choosing or adapting a conventional language to the other locutors for an effective usage</rdfs:comment>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Performance">
+	<rdfs:comment xml:lang="en">capability of producing the desired result</rdfs:comment>
+	<rdfs:label xml:lang="en">Performance</rdfs:label>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#Team">
+	<rdfs:label xml:lang="en">Team</rdfs:label>
+	<rdfs:comment xml:lang="en">group linked in a common purpose</rdfs:comment>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#belongTo">
+	<dc:description xml:lang="en">The person belong to the team</dc:description>
+	<rdfs:comment>ينتمي الى</rdfs:comment>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#consistOf">
+	<rdfs:comment>يتألف من</rdfs:comment>
+	<dc:description xml:lang="en">The team consists of many person</dc:description>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#country">
+	<ns:term_status xml:lang="en">unstable</ns:term_status>
+	<rdfs:label xml:lang="en">country</rdfs:label>
+	<rdfs:comment xml:lang="en">country for each team member</rdfs:comment>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#has">
+	<rdfs:comment xml:lang="en">يمتلك</rdfs:comment>
+	<dc:description xml:lang="en">the person  has a cutural difference</dc:description>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2022/0/untitled-ontology-63#workIn">
+	<dc:description xml:lang="en">The person works in the company</dc:description>
+	<rdfs:comment>يعمل في</rdfs:comment>
+</rdf:Description>
+<!--  -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
+</rdf:RDF>
